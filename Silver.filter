@@ -1,3 +1,6 @@
+// Initial template made by WolfieeifloW
+
+
 // Filter lines start here
 // Quest items
 ItemDisplay[bks]: %NAME%%MAP-58% // Scroll of Inifuss
@@ -229,8 +232,8 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 8
 
 // Magic Items
 // Arrows & Quivers
-ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
+//ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
+//ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
 
 // Amulets
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
@@ -317,3 +320,6 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // Base Items
 // I've given just one example here to get you started
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD !DIN !NEC]: %NAME% // Spirit Shields
+ItemDisplay[]: %NAME%{Item Level: %ILVL%}
+ItemDisplay[MAG !ID (SOR)]: %NAME%{%PURPLE%Sorceress item} //Hides non Sorceress
+ItemDisplay[NMAG AND SOCK=1 AND CLVL>10]:
