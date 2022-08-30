@@ -1,6 +1,7 @@
 // +----------------------------------------------------------------------------+
 // |                                                                            |
 // |     WOLFIE'S PROJECT DIABLO 2 FILTER (DETAILED)                            |
+// |     Small changes made by andrelu00 (SilverD on PD2)                       |
 // |     GitHub: https://github.com/WolfieeifloW/pd2filter/                     |
 // |     Discord: https://discord.gg/6bM8AtYGAq                                 |
 // |     Made By: @WolfieeifloW#6431                                            |
@@ -39,7 +40,7 @@
 // Use the code between and including the [] to search (with Match Case/Case Sensitivity turned on) and jump to that section of the filter.
 //
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
-// |   [QUES] Quest Items                (1) |   [UNIQ] Unique Items               (2) |   [SETS] Set Items                  (3) |   [RARI] Rare Items                 (4) |
+// |    [QUES] Quest Items               (1) |   [UNIQ] Unique Items               (2) |   [SETS] Set Items                  (3) |   [RARI] Rare Items                 (4) |
 // |      [QIA1] Act 1                       |      [UIMI] Unique Miscellaneous        |      [SIMI] Set Miscellaneous           |      [RIMI] Rare Miscellaneous          |
 // |      [QIA2] Act 2                       |         [UMAM] Amulets                  |      [SIMU] Set Multiple                |         [RMAM] Amulets                  |
 // |      [QIA3] Act 3                       |         [UMCH] Charms                   |      [SINS] Normal Sets                 |         [RMCH] Charms                   |
@@ -3119,8 +3120,8 @@ ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR
 // ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID aqv]: //%NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG !ID cqv]: //%NAME% // Shows Magic Bolt quivers
 // Items used for crafting (eg amulets/charms/rings) check the "Crafted Items" section
 
 // ------------------------------------------------------------------------------
