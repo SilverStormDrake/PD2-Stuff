@@ -323,3 +323,6 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD !DIN !NEC]: %NAME% // Spirit S
 ItemDisplay[]: %NAME%{Item Level: %ILVL%}
 ItemDisplay[MAG !ID (SOR)]: %NAME%{%PURPLE%Sorceress item} //Hides non Sorceress
 ItemDisplay[NMAG AND SOCK=1 AND CLVL>10]:
+ItemDisplay[cm1 AND (RES OR FRES OR LRES OR CRES)]: RESIST!! %NAME%
+ItemDisplay[cm2]: %NAME%
+ItemDisplay[cm3]: %NAME%
