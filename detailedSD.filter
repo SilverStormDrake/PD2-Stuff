@@ -666,7 +666,7 @@ ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges
 // ------------------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
-ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON)]: // Hide all Low Quality, Cracked, Crude, & Damaged
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 
