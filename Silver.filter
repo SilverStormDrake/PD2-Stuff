@@ -327,3 +327,8 @@ ItemDisplay[cm1 AND (RES OR FRES OR LRES OR CRES)]: RESIST!! %NAME%
 ItemDisplay[cm2]: %NAME%
 ItemDisplay[cm3]: %NAME%
 ItemDisplay[MAG !ID amu PREFIX = 1283]: %NAME%{%RED%+ Fire Skills!}
+
+
+
+ItemDisplay[NMAG]:
+ItemDisplay[]: %NAME%
